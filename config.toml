@@ -1,0 +1,49 @@
+baseURL = "http://beargummy.net"
+languageCode = "en-us"
+title = "Daniil Katson's blog"
+
+copyright = "Daniil Katson"
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[params]
+
+  description = ""
+
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5
+
+  showProjectsList = false
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/beargummy"
+
+[[params.social]]
+  name = "twitter"
+  link = "https://twitter.com/_beargummy"
+
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/beargummy/"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "github"
+    tabWidth = 4
