@@ -1,7 +1,10 @@
-baseURL = "http://beargummy.net"
+baseURL = "https://beargummy.net"
 languageCode = "en-us"
 title = "Daniil Katson's blog"
-
+theme = "cactus"
+disqusShortname = "beargummy"
+googleAnalytics = "G-TZ0ELF40BH"
+googleAnalyticsAsync = true
 copyright = "Daniil Katson"
 
 # Main menu which appears below site header.
@@ -24,6 +27,12 @@ weight = 2
 
   showProjectsList = false
 
+  rss = true
+
+[params.comments]
+  enabled = true
+  engine = "disqus"
+
 [[params.social]]
   name = "github"
   link = "https://github.com/beargummy"
@@ -35,6 +44,10 @@ weight = 2
 [[params.social]]
   name = "linkedin"
   link = "https://www.linkedin.com/in/beargummy/"
+
+[[params.social]]
+  name = "rss"
+  link = "https://beargummy.net/index.xml"
 
 [markup]
   [markup.highlight]
