@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>how-to on beargummy blog</title>
+    <link>https://beargummy.net/tags/how-to/</link>
+    <description>Recent content in how-to on beargummy blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 06 Sep 2020 01:03:08 +0300</lastBuildDate><atom:link href="https://beargummy.net/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Karabiner to the Resque</title>
+      <link>https://beargummy.net/posts/karabiner-to-the-resque/</link>
+      <pubDate>Sun, 06 Sep 2020 01:03:08 +0300</pubDate>
+      
+      <guid>https://beargummy.net/posts/karabiner-to-the-resque/</guid>
+      <description>Recently I had to start using windows for development, and since I was wanna keep using my beloved MacBook, which I used for many years, I had to choose which option will work for me best. There were 3 options to choose from:
+ Use windows workstation via RDP. This may sound costly, but I have a windows machine to spare. Create a Windows VM via Parallels (as this is still the best way to run Windows on Mac).</description>
+    </item>
+    
+  </channel>
+</rss>
