@@ -1,7 +1,8 @@
 ---
-title: "The Story of My (Mostly Professional) Life"
+title: "Instead of CV, or how I end up here"
 date: 2020-11-04T15:17:15+03:00
 draft: false
+tags: ["personal"]
 ---
 
 The story begins in my schooldays back in late 90s. I was very lucky to get informatics class at my 5th grade. This was pretty unusual for my school, 

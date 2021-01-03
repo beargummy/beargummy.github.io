@@ -1,0 +1,105 @@
+baseURL: "https://beargummy.net"
+title: beargummy blog
+paginate: 5
+theme: hugo-PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+disqusShortname: "beargummy"
+googleAnalytics: "G-TZ0ELF40BH"
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+
+    # ru:
+    #     languageName: "Russian"
+    #     weight: 2
+    #     title: Уютный бложик beargummy
+    #     menu:
+    #         main:
+    #             - name: Архив
+    #               url: archives
+    #               weight: 5
+    #     homeInfoParams:
+    #         title: Уютный бложик beargummy
+    #         Content: >
+    #             Это мой личный блог.
+    #             Здесь я делюсь своими идеями, которые не влезают в несколько твитов.
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    description: ""
+    author: Daniil Katson
+    license: "CC BY-NC-SA 4.0"
+    licenseUrl: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
+    ShowReadingTime: true
+    defaultTheme: auto
+    ShowShareButtons: true
+    displayFullLangName: true
+    comments: true
+    # images: ""
+
+    homeInfoParams:
+        Title: "Daniil's blog at ease ✍️"
+        Content: >
+            This is my personal blog.
+            Here I'm sharing content that cannot fit into couple of tweets.
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/_beargummy"
+        - name: telegram
+          url: "https://t.me/beargummy"
+        - name: linkedin
+          url: "https://linkedin.com/in/beargummy"
+        - name: github
+          url: "https://github.com/beargummy"
+        - name: rss
+          url: "https://beargummy.net/index.xml"
+
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true

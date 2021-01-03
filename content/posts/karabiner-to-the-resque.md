@@ -2,6 +2,7 @@
 title: "Karabiner to the Resque"
 date: 2020-09-06T01:03:08+03:00
 draft: false
+tags: ["how-to", "tips"]
 ---
 
 Recently I had to start using windows for development, and since I was wanna keep using my beloved MacBook, which I used for many years, I had to choose which option will work for me best. There were 3 options to choose from:
