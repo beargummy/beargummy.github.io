@@ -6,7 +6,7 @@ enableInlineShortcodes: true
 enableRobotsTXT: true
 
 disqusShortname: "beargummy"
-googleAnalytics: "G-TZ0ELF40BH"
+googleAnalytics: "UA-186294410-1"
 
 minify:
     disableXML: true
